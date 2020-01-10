@@ -52,12 +52,6 @@ class Sql:
         cls.DBNAME = dbname
 
 
-sql = Sql()
 
-ret = sql.select("SELECT * FROM teste")
-print(ret)
-
-Sql.change_conn("127.0.0.1", "root", "toor", "python")
-sql2 = Sql()
 
 
