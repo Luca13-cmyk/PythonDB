@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bab4ceb6-1cb3-4d16-8c46-5e9c9915a09d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RedisDB/Db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FirebaseDB/Db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/PythonDB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonDB.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Db (1)">
+  <component name="RunManager" selected="Python.Db (2)">
     <configuration name="Db (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,6 +58,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Db (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonDB" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FirebaseDB" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FirebaseDB/Db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonDB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,27 +92,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MongoDB/Db.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Sql (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonDB" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SQLite" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQLite/Sql.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Db (2)" />
         <item itemvalue="Python.Db (1)" />
         <item itemvalue="Python.connect (1)" />
         <item itemvalue="Python.connect" />
         <item itemvalue="Python.Db" />
-        <item itemvalue="Python.Sql (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,38 +192,38 @@
     <state x="804" y="164" width="367" height="378" key="FileChooserDialogImpl/0.31.1280.689@0.31.1280.689" timestamp="1578684879954" />
     <state x="743" y="237" width="434" height="487" key="FileChooserDialogImpl/0.31.1920.890@0.31.1920.890" timestamp="1578674077464" />
     <state x="830" y="161" width="379" height="381" key="FileChooserDialogImpl/70.27.1210.693@70.27.1210.693" timestamp="1579048268296" />
-    <state width="1187" height="181" key="GridCell.Tab.0.bottom" timestamp="1579138694913">
-      <screen x="70" y="27" width="1210" height="693" />
+    <state width="1187" height="141" key="GridCell.Tab.0.bottom" timestamp="1579392422007">
+      <screen x="70" y="27" width="1210" height="588" />
     </state>
     <state width="1257" height="180" key="GridCell.Tab.0.bottom/0.31.1280.584@0.31.1280.584" timestamp="1578688513423" />
     <state width="1257" height="180" key="GridCell.Tab.0.bottom/0.31.1280.689@0.31.1280.689" timestamp="1578689309811" />
     <state width="1897" height="180" key="GridCell.Tab.0.bottom/0.31.1920.890@0.31.1920.890" timestamp="1578686133662" />
-    <state width="1167" height="121" key="GridCell.Tab.0.bottom/70.27.1210.588@70.27.1210.588" timestamp="1578858362406" />
-    <state width="1187" height="181" key="GridCell.Tab.0.bottom/70.27.1210.693@70.27.1210.693" timestamp="1579138694913" />
-    <state width="1187" height="181" key="GridCell.Tab.0.center" timestamp="1579138694912">
-      <screen x="70" y="27" width="1210" height="693" />
+    <state width="1187" height="141" key="GridCell.Tab.0.bottom/70.27.1210.588@70.27.1210.588" timestamp="1579392422007" />
+    <state width="1187" height="181" key="GridCell.Tab.0.bottom/70.27.1210.693@70.27.1210.693" timestamp="1579221138572" />
+    <state width="1187" height="141" key="GridCell.Tab.0.center" timestamp="1579392422006">
+      <screen x="70" y="27" width="1210" height="588" />
     </state>
     <state width="1257" height="180" key="GridCell.Tab.0.center/0.31.1280.584@0.31.1280.584" timestamp="1578688513422" />
     <state width="1257" height="180" key="GridCell.Tab.0.center/0.31.1280.689@0.31.1280.689" timestamp="1578689309810" />
     <state width="1897" height="180" key="GridCell.Tab.0.center/0.31.1920.890@0.31.1920.890" timestamp="1578686133661" />
-    <state width="1167" height="121" key="GridCell.Tab.0.center/70.27.1210.588@70.27.1210.588" timestamp="1578858362405" />
-    <state width="1187" height="181" key="GridCell.Tab.0.center/70.27.1210.693@70.27.1210.693" timestamp="1579138694912" />
-    <state width="1187" height="181" key="GridCell.Tab.0.left" timestamp="1579138694911">
-      <screen x="70" y="27" width="1210" height="693" />
+    <state width="1187" height="141" key="GridCell.Tab.0.center/70.27.1210.588@70.27.1210.588" timestamp="1579392422006" />
+    <state width="1187" height="181" key="GridCell.Tab.0.center/70.27.1210.693@70.27.1210.693" timestamp="1579221138571" />
+    <state width="1187" height="141" key="GridCell.Tab.0.left" timestamp="1579392422006">
+      <screen x="70" y="27" width="1210" height="588" />
     </state>
     <state width="1257" height="180" key="GridCell.Tab.0.left/0.31.1280.584@0.31.1280.584" timestamp="1578688513422" />
     <state width="1257" height="180" key="GridCell.Tab.0.left/0.31.1280.689@0.31.1280.689" timestamp="1578689309809" />
     <state width="1897" height="180" key="GridCell.Tab.0.left/0.31.1920.890@0.31.1920.890" timestamp="1578686133660" />
-    <state width="1167" height="121" key="GridCell.Tab.0.left/70.27.1210.588@70.27.1210.588" timestamp="1578858362404" />
-    <state width="1187" height="181" key="GridCell.Tab.0.left/70.27.1210.693@70.27.1210.693" timestamp="1579138694911" />
-    <state width="1187" height="181" key="GridCell.Tab.0.right" timestamp="1579138694913">
-      <screen x="70" y="27" width="1210" height="693" />
+    <state width="1187" height="141" key="GridCell.Tab.0.left/70.27.1210.588@70.27.1210.588" timestamp="1579392422006" />
+    <state width="1187" height="181" key="GridCell.Tab.0.left/70.27.1210.693@70.27.1210.693" timestamp="1579221138571" />
+    <state width="1187" height="141" key="GridCell.Tab.0.right" timestamp="1579392422007">
+      <screen x="70" y="27" width="1210" height="588" />
     </state>
     <state width="1257" height="180" key="GridCell.Tab.0.right/0.31.1280.584@0.31.1280.584" timestamp="1578688513423" />
     <state width="1257" height="180" key="GridCell.Tab.0.right/0.31.1280.689@0.31.1280.689" timestamp="1578689309810" />
     <state width="1897" height="180" key="GridCell.Tab.0.right/0.31.1920.890@0.31.1920.890" timestamp="1578686133662" />
-    <state width="1167" height="121" key="GridCell.Tab.0.right/70.27.1210.588@70.27.1210.588" timestamp="1578858362406" />
-    <state width="1187" height="181" key="GridCell.Tab.0.right/70.27.1210.693@70.27.1210.693" timestamp="1579138694913" />
+    <state width="1187" height="141" key="GridCell.Tab.0.right/70.27.1210.588@70.27.1210.588" timestamp="1579392422007" />
+    <state width="1187" height="181" key="GridCell.Tab.0.right/70.27.1210.693@70.27.1210.693" timestamp="1579221138572" />
     <state x="306" y="27" width="910" height="693" key="SettingsEditor" timestamp="1579047704149">
       <screen x="70" y="27" width="1210" height="693" />
     </state>
